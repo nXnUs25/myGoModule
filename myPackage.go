@@ -6,8 +6,8 @@ func PackageName() string {
 	return "myPackage"
 }
 
-func CallPrivate(name string) {
-	fmt.Println(privatePackage(name))
+func CallPrivate(fname, lname string) {
+	fmt.Println(privatePackage(fname, lname))
 }
 
 func Version() {
