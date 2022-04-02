@@ -2,7 +2,7 @@ package myGoModule
 
 import "fmt"
 
-const version = "2.0.0"
+const version = "2.0.2"
 
 func OtherFileInSamePackage() string {
 	return "Its other file location for this file"
